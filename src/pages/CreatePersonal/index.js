@@ -33,8 +33,7 @@ export default function CreatePersonal({ navigation }){
             cref
         })
 
-        Alert.alert("Salvo")
-        navigation.navigate("Home")
+        navigation.navigate("Login")
     }
 
     const [email,setEmail] = useState("")
