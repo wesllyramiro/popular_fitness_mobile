@@ -2,7 +2,7 @@ import styled from "styled-components/native";
 
 export const Logo = styled.Image`
     border-radius: 129px;
-    margin:50px 0px;
+    margin:0px 0px -50px;
 `
 
 export const TextWelcome = styled.Text`
@@ -15,12 +15,6 @@ export const TextWelcome = styled.Text`
     line-height: 29px
 `
 
-export const TextInfo = styled.Text`
-    color:#074470;
-    font-weight: bold; 
-    margin:30px 50px 0px;
-`
-
 export const AlignButton = styled.View`
-    margin-top:30%;
+    margin-top:50%;
 `
